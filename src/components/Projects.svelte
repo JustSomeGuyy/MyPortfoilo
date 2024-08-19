@@ -7,8 +7,8 @@ import projects from '$lib/data/projects';
 
 </script>
 
-<div class="my-8 flex flex-col items-center gap-20 min-h-full">
-    <h2 id="projects" class="relative text-5xl font-bold">
+<div id="projects" class="my-8 flex flex-col justify-center items-center gap-20 min-h-full h-screen">
+    <h2 class="relative text-5xl font-bold">
         Concepts I have made
         <span class="-z-10 rounded-sm w-5/6 h-7 bg-purple absolute right-10 -bottom-1 opacity-75 blur-[1px]"></span>
     </h2>
