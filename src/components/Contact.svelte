@@ -17,14 +17,14 @@
             <span class="-z-10 rounded-sm w-5/12 h-7 bg-purple absolute top-28 right-5 opacity-50 blur-[1px]"></span>
             <!-- Textarea skew -->
             <span class="-z-10 rounded-sm w-6/12 h-7 bg-purple absolute top-46 -left-2 opacity-50 blur-[1px]"></span>
-            <!-- Form -->
+            <!-- Contact Form -->
             <form class="flex flex-col gap-9 justify-center content-center items-center" action="" method="post">
                 <div class="flex flex-row gap-14">
                     <input class="input h-12 p-2 max-w-60 font-bold text-base" type="text" name="Name" id="nameInput" placeholder="Name">
                     <input class="input h-12 p-2 max-w-60 font-bold text-base" type="email" name="Email" id="emailInput" placeholder="Email">
                 </div>
                 <textarea class="input resize-none h-40 min-h-28 w-full p-2" name="message" id="message" placeholder="Start your message here"></textarea>
-                <button class="w-32 h-11 rounded-lg bg-purple" type="submit">
+                <button class="py-1 px-5 rounded-lg bg-purple" type="submit">
                     <p>Let's Chat <i class="fa fa-arrow-right"></i></p>
                 </button>
             </form>

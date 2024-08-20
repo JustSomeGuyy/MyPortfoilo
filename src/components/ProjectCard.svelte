@@ -21,7 +21,7 @@
         </div>
         <div class="flex flex-row gap-4">
             {#each project.languages as keyword}
-            <div class="text-center border-purple border-[1px] rounded-[10px] min-w-24 h-6 opacity-80 font-meduim">
+            <div class="text-center border-purple border-[1px] rounded-[10px] py-1 px-5 opacity-80 font-meduim">
                 <p>{keyword}</p>
             </div>
             {/each}
