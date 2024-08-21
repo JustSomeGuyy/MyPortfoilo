@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 #container {
-    mask: linear-gradient(90deg, transparent, rgb(166, 90, 90) 40%, white 60%, transparent);
-    /* -webkit-mask: linear-gradient(90deg, transparent, white 40%, white 60%, transparent); */
+	mask: linear-gradient(90deg, transparent, rgb(166, 90, 90) 40%, white 60%, transparent);
+	/* -webkit-mask: linear-gradient(90deg, transparent, white 40%, white 60%, transparent); */
 }
 
 .input {
-    background-color: transparent;
-    border: 1px solid hsl(262, 7%, 76%);
-    border-radius: 10px;
+	background-color: transparent;
+	border: 1px solid hsl(262, 7%, 76%);
+	border-radius: 10px;
 }
