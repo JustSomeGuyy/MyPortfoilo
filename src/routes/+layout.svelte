@@ -1,10 +1,22 @@
 <script>
-	import { resolveRoute } from '$app/paths';
 	import '../app.css';
-	import Footer from '../components/Footer.svelte';
 	import Header from '../components/Header.svelte';
-</script>
-
-<Header />
-<slot />
-<Footer />
+	import Welcome from '../components/Welcome.svelte';
+	import Footer from '../components/Footer.svelte';
+  
+	let showContent = false;
+  
+	function handleWelcomeFinished() {
+	  showContent = true;
+	}
+  </script>
+  
+  {#if !showContent}
+	<Welcome on:finished={handleWelcomeFinished} />
+  {/if}
+  
+  {#if showContent}
+	<Header />
+	<slot />
+	<Footer />
+  {/if}

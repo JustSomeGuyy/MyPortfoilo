@@ -2,13 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-#container {
-	mask: linear-gradient(90deg, transparent, rgb(166, 90, 90) 40%, white 60%, transparent);
-	/* -webkit-mask: linear-gradient(90deg, transparent, white 40%, white 60%, transparent); */
+:root {
+	--bg: hsl(hsl(0, 0%, 17%));
 }
 
+#container {
+	mask: linear-gradient(90deg, transparent, rgb(166, 90, 90) 40%, white 60%, transparent);
+	-webkit-mask: linear-gradient(90deg, transparent, white 40%, white 60%, transparent);
+}
+
+
+/* Inputs in contact section */
 .input {
 	background-color: transparent;
 	border: 1px solid hsl(262, 7%, 76%);
 	border-radius: 10px;
 }
+
+#hello {
+	animation: fadeOut 50ms;
+
+}
+
+@keyframes fadeOut {
+	100% {opacity: 100%;}
+	0% {opacity: 0%;}
+}
+
+#welcomeContainer {
+    transition: opacity 1s ease-out; /* Duration of fade-out */
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }

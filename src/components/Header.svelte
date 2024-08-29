@@ -10,9 +10,7 @@
 		<a href="#projects" class="">Projects</a>
 		<a href="#contact" class="">Contact</a>
 	</nav>
-	<a href="#contact">
-		<button class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap">
+	<a href="#contact" class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap">
 			<p class="opacity-95">Get in touch</p>
-		</button>
 	</a>
 </header>

@@ -1,9 +1,9 @@
 <script lang="ts">
 </script>
 
-<footer class="flex flex-col w-full items-center justify-center">
+<footer class="flex flex-col w-full">
 	<div
-		class="flex justify-between content-between items-between w-full mx-auto flex-row no-wrap min-h-20"
+		class="flex justify-around content-around items-around w-full mx-auto flex-row no-wrap min-h-20"
 	>
 		<h1 class=" flex justify-center items-center text-center text-2xl">
 			Tyler<span class="opacity-70">Wolfe</span>
@@ -14,12 +14,8 @@
 			<a href="#projects" class="">Projects</a>
 			<a href="#contact" class="">Contact</a>
 		</nav>
-		<a href="#header">
-			<button
-				class="rounded-full size-8 bg-textColor text-darkGrey border-darkGrey border-solid flex justify-center content-center items-center text-lg"
-			>
+		<a href="#header" class="rounded-full size-8 bg-textColor text-darkGrey border-darkGrey border-solid flex justify-center content-center items-center text-lg z-50">
 				<i class="fa fa-arrow-up"></i>
-			</button>
 		</a>
 	</div>
 	<div class="text-center font-normal">

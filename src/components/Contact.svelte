@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div
 	id="contact"
 	class="flex flex-row h-screen min-w-52 w-full justify-center content-center gap-36 relative"
@@ -63,8 +60,9 @@
 	</div>
 	<div class="relative top-36">
 		<img
+            id="contactImage"
 			class="h-80 md:h-60 sm:h-52 lg:h-80 rounded-b-full"
-			src="static/assets/subject.png"
+			src="assets/Subject.png"
 			alt=""
 		/>
 		<span class="-z-10 h-80 w-80 bg-purple absolute top-0 left-0 blur-lg rounded-full"></span>
