@@ -29,11 +29,15 @@
 	0% {opacity: 0%;}
 }
 
-#welcomeContainer {
+#welcome {
     transition: opacity 1s ease-out; /* Duration of fade-out */
     opacity: 1;
   }
 
   .fade-out {
     opacity: 0;
+  }
+
+  .fade-in {
+	opacity: 1;
   }
