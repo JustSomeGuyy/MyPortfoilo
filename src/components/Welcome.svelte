@@ -1,73 +1,54 @@
 <script lang='ts'>
-import { createEventDispatcher, onMount } from 'svelte';
+  import { createEventDispatcher, onMount, onDestroy } from 'svelte';
 
-const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher();
 
-onMount(() => {
   const helloInDifferentLanguages = [
-    'Hello',
-    'Hola',
-    '你好',
-    'مرحبا',
-    'नमस्ते',
-    'Bonjour',
-    'Здравстввуйте',
-    'হ্যালো',
-    'Olá',
-    'こんにちは',
-    'ਸਤ ਸ੍ਰੀ ਅਕਾਲ',
-    'Hallo',
-    'Halo',
-    'హలో',
-    'नमस्कार',
-    'Merhaba',
-    '안녕하세요',
-    'வணக்கம்',
-    'Xin chào',
-    'ہیلو',
+    'Hola', '你好', 'مرحبا', 'नमस्ते', 'Bonjour', 'Здравстввуйте', 'হ্যালো', 'Olá', 
+    'こんにちは', 'ਸਤ ਸ੍ਰੀ ਅਕਾਲ', 'Hallo', 'Halo', 'హలో', 'नमस्कार', 'Merhaba', 
+    '안녕하세요', 'வணக்கம்', 'Xin chào', 'ہیلو', 'Hello'
   ];
 
-  const helloDisplay = document.getElementById('welcome');
-
-  if (!helloDisplay) return;
-
   let index = 0;
+  let interval: number | undefined;
 
-  function updateHello() {
-    // Apply fade-out class
-    helloDisplay.classList.add('fade-out');
+  onMount(() => {
+    const helloDisplay = document.getElementById('welcome');
 
-    // Wait for fade-out transition to complete before updating text
-    setTimeout(() => {
-      // Update the text content
-      helloDisplay.textContent = helloInDifferentLanguages[index];
-
-      // Reset and apply fade-in class
-      helloDisplay.classList.remove('fade-out');
-      helloDisplay.classList.add('fade-in');
-
-      // Update index
-      index++;
-      if (index >= helloInDifferentLanguages.length) {
-        // Apply final fade-out class
-        setTimeout(() => {
-          helloDisplay.classList.add('fade-out');
-          setTimeout(() => {
-            dispatch('finished');
-          }, 1000); // Match this with the duration of the fade-out effect
-        }, 1500); // Duration for the fade-in text
+    function updateHello() {
+      if (index < helloInDifferentLanguages.length) {
+        if (helloDisplay) {
+          helloDisplay.textContent = helloInDifferentLanguages[index];
+          
+          // Check if the current text is 'Hello'
+          if (helloInDifferentLanguages[index] === 'Hello') {
+            // Set a longer delay for 'Hello'
+            interval = window.setTimeout(() => {
+              dispatch('finished');
+            }, 800); // 1 second delay for 'Hello'
+          } else {
+            // Set a shorter delay for other greetings
+            interval = window.setTimeout(() => {
+              index++;
+              updateHello();
+            }, 250); // 200 milliseconds delay for other greetings
+          }
+        }
       } else {
-        // Continue updating text
-        setTimeout(updateHello, 1500); // Time to show each text
+        dispatch('finished');
       }
-    }, 1000); // Duration of the fade-out effect
-  }
+    }
 
-  // Start the update loop
-  updateHello();
-});
+    updateHello();
+
+    onDestroy(() => {
+      if (interval) {
+        clearTimeout(interval);
+      }
+    });
+  });
 </script>
 
-<div class="h-screen flex justify-center content-center items-center text-9xl">
-  <p id="welcome"></p>
+<div class="h-screen flex justify-center items-center">
+  <p id="welcome" class="w-full text-center text-9xl lg:text-9xl md:text-2xl sm:text-lg"></p>
 </div>

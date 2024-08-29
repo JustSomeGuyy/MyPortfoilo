@@ -13,9 +13,7 @@
   
   {#if !showContent}
 	<Welcome on:finished={handleWelcomeFinished} />
-  {/if}
-  
-  {#if showContent}
+  {:else}
 	<Header />
 	<slot />
 	<Footer />

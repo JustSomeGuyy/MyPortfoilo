@@ -61,7 +61,7 @@
 	<div class="relative top-36">
 		<img
             id="contactImage"
-			class="h-80 md:h-60 sm:h-52 lg:h-80 rounded-b-full"
+			class=" size-80 sm:size-20 md:size-60 lg:size-80 rounded-b-full"
 			src="assets/Subject.png"
 			alt=""
 		/>
