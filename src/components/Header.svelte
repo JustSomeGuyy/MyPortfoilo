@@ -6,9 +6,9 @@
 		Tyler<span class="opacity-70">Wolfe</span>
 	</h1>
 	<nav class="flex flex-row no-wrap justify-center items-center gap-10 text-2xl w-full">
-		<a href="#about" class="">About</a>
-		<a href="#projects" class="">Projects</a>
-		<a href="#contact" class="">Contact</a>
+		<a href="#about" class="hover:text-purple">About</a>
+		<a href="#projects" class="hover:text-purple">Projects</a>
+		<a href="#contact" class="hover:text-hoverColour">Contact</a>
 	</nav>
 	<a href="#contact" class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap">
 			<p class="opacity-95">Get in touch</p>
