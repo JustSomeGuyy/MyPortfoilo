@@ -6,9 +6,9 @@
 	import projects from '$lib/data/projects';
 </script>
 
-<div
+<section
 	id="projects"
-	class="my-8 flex flex-col justify-center items-center gap-20 min-h-full h-screen"
+	class="my-8 flex flex-col justify-center items-center gap-20 min-h-full h-screen snap-proximity snap-y snap-start"
 >
 	<h2 class="relative text-5xl font-bold">
 		Concepts I have made
@@ -29,4 +29,4 @@
 			<p>{lim ? 'Show More' : 'Show Less'}</p>
 		</button>
 	{/if}
-</div>
+</section>

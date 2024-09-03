@@ -2,7 +2,7 @@
 	import CtAs from './CTAs.svelte';
 </script>
 
-<div
+<section
 	class="flex flex-row justify-center content-center items-center size-full gap-5 min-h-[80dvh] sm:flex-col-reverse sm:size-full md:flex-row"
 >
 	<div class="flex flex-col content-center text-start max-w-lg w-1/2 gap-4">
@@ -27,7 +27,7 @@
 			</span>
 		</div>
 	</div>
-</div>
+</section>
 
 <div class="flex justify-center text-xl font-bold">
 	<p class="">

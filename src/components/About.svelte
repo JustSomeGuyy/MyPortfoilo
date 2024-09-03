@@ -2,9 +2,9 @@
 	import Languages from './Languages.svelte';
 </script>
 
-<div
+<section
 	id="about"
-	class="flex flex-col justify-center content-center items-center gap-16 h-screen my-auto"
+	class="flex flex-col justify-center content-center items-center gap-16 h-screen my-auto snap-mandatory snap-start"
 >
 	<div
 		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-9/12 h-80 justify-center sm:px-8 md:px-20 gap-4"
@@ -30,4 +30,4 @@
 		</div>
 	</div>
 	<Languages />
-</div>
+</section>
