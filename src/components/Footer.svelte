@@ -1,4 +1,7 @@
 <script lang="ts">
+	import Socials from "./Socials.svelte";
+
+
 </script>
 
 <footer class="flex flex-col w-full h-15">
@@ -13,9 +16,9 @@
 
 		<!-- Nav menu -->
 		<nav class="flex flex-row no-wrap justify-center content-center items-center gap-10 text-2xl w-full">
-			<a href="#about" class="">About</a>
-			<a href="#projects" class="">Projects</a>
-			<a href="#contact" class="">Contact</a>
+			<a href="#about" class="hover:text-purple">About</a>
+			<a href="#projects" class="hover:text-purple">Projects</a>
+			<a href="#contact" class="hover:text-purple">Contact</a>
 		</nav>
 
 		<!--  -->
@@ -23,6 +26,11 @@
 				<i class="fa fa-arrow-up"></i>
 		</a>
 	</div>
+	<!-- <div class="">
+		{#if }
+			
+		{/if}
+	</div> -->
 	<div class="text-center font-normal mt-4">
 		<p>Copyright &copy; 2024 Tyler Wojciechowski Wolfe</p>
 	</div>

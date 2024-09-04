@@ -9,7 +9,7 @@
 	function handleWelcomeFinished() {
 	  showContent = true;
 	}
-  </script>
+</script>
   
   {#if !showContent}
 	<Welcome on:finished={handleWelcomeFinished} />

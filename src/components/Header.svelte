@@ -8,9 +8,9 @@
 	<nav class="flex flex-row no-wrap justify-center items-center gap-10 text-2xl w-full">
 		<a href="#about" class="hover:text-purple">About</a>
 		<a href="#projects" class="hover:text-purple">Projects</a>
-		<a href="#contact" class="hover:text-hoverColour">Contact</a>
+		<a href="#contact" class="hover:text-purple">Contact</a>
 	</nav>
-	<a href="#contact" class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap">
+	<a href="#contact" class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap hover:bg-hoverColor">
 			<p class="opacity-95">Get in touch</p>
 	</a>
 </header>
