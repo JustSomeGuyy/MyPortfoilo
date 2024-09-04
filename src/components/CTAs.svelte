@@ -4,7 +4,9 @@
 			>Let's Chat <span class="text-base"><i class="fa fa-arrow-right"></i></span></a
 		>
 	</button>
-	<button class="py-1 px-5 border rounded-lg border-purple text-purple text-base hover:text-hoverColor hover:border-hoverColor">
+	<button
+		class="py-1 px-5 border rounded-lg border-purple text-purple text-base hover:text-hoverColor hover:border-hoverColor"
+	>
 		<a href="#projects">My Work</a>
 	</button>
 </div>

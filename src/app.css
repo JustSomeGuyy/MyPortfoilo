@@ -11,7 +11,6 @@
 	-webkit-mask: linear-gradient(90deg, transparent, white 40%, white 60%, transparent);
 }
 
-
 /* Inputs in contact section */
 .input {
 	background-color: transparent;
@@ -21,10 +20,13 @@
 
 #hello {
 	animation: fadeOut 50ms;
-
 }
 
 @keyframes fadeOut {
-	100% {opacity: 100%;}
-	0% {opacity: 0%;}
+	100% {
+		opacity: 100%;
+	}
+	0% {
+		opacity: 0%;
+	}
 }

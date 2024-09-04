@@ -1,6 +1,4 @@
 <script>
-
-
 </script>
 
 <section
@@ -33,7 +31,8 @@
 			<form
 				class="flex flex-col gap-9 justify-center content-center items-center"
 				action="mailto:tyler.wojciechowski@icloud.com"
-				method="post" enctype="text/plain"
+				method="post"
+				enctype="text/plain"
 			>
 				<div class="flex flex-row gap-14">
 					<input
@@ -65,7 +64,7 @@
 	</div>
 	<div class="relative top-36 sm:hidden md:block">
 		<img
-            id="contactImage"
+			id="contactImage"
 			class=" size-80 sm:size-20 md:size-60 lg:size-80 rounded-b-full"
 			src="assets/Subject.png"
 			alt=""
