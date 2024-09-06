@@ -1,16 +1,17 @@
 let projects = [
 	{
 		name: 'Swoley Moley',
-		source: '',
-		link: '',
+		source: '/assets/project_photos/SwoleyMole.png',
+		link: 'https://swoley-moley-5ibwkjqy8-justsomeguyys-projects.vercel.app',
 		description:
-			"This website was a project I have created for freeCodeCamp's course to learn Svelte and Sveltekit.",
-		languages: ['Svelte', 'SvelteKit', 'TailwindCSS']
+			"This was a project done through freeCodeCamp which allowed me to further understand Svelte, Sveltekit, and Tailwindcss which in turn allowed me to create my portfolio using the same tech stack.",
+		languages: ['Svelte', 'SvelteKit', 'TailwindCSS', 'JavaScript']
 	},
 	{
 		name: 'ClearSky',
-		link: '',
-		description: 'bladl',
+		source: '',
+		link: 'https://justsomeguyy.github.io/TOP-Weather-App/',
+		description: 'This is a project I created while on learning through The Odin Project. I worked alongside APIs, reading and displaying .json files, and working with system functions and APIs.',
 		languages: ['HTML5', 'SASS', 'JavaScript']
 	}
 ];

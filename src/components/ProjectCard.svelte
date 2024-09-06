@@ -15,14 +15,14 @@
 				? 'flex-end flex-row-reverse'
 				: '')}
 >
-	<div class="relative size-64 md:size-48 sm:size-36 bg-darkGrey rounded-2xl">
-		<img src={project.source} alt="" />
+	<div class="relative bg-darkGrey rounded-2xl object-fill flex items-center justify-center">
+		<img src={project.source} alt="" class=" max-h-80 rounded-2xl object-fill"/>
 		<span class="-z-10 size-full blur-md bg-purple absolute bottom-0"></span>
 	</div>
 	<div class="flex flex-col justify-center gap-6 w-5/12">
 		<div class="flex flex-col gap-3">
 			<h3 class=" text-3xl font-semibold">
-				<a href={project.link}>{project.name}</a>
+				<a href={project.link} class="hover:text-purple">{project.name}</a>
 			</h3>
 			<span class="h-[1px] w-full bg-purple"></span>
 			<p class="opacity-75 text-sm">{project.description}</p>
