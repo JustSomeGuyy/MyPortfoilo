@@ -9,7 +9,7 @@ let projects = [
 	},
 	{
 		name: 'ClearSky',
-		source: '',
+		source: '/assets/project_photos/ClearSky.png',
 		link: 'https://justsomeguyy.github.io/TOP-Weather-App/',
 		description: 'This is a project I created while on learning through The Odin Project. I worked alongside APIs, reading and displaying .json files, and working with system functions and APIs.',
 		languages: ['HTML5', 'SASS', 'JavaScript']
