@@ -31,6 +31,7 @@
 			<form
 				class="flex flex-col gap-9 justify-center content-center items-center"
 				action="mailto:tyler.wojciechowski@icloud.com"
+				target="_blank"
 				method="post"
 				enctype="text/plain"
 			>

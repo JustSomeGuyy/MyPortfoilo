@@ -30,11 +30,6 @@
 			<i class="fa fa-arrow-up"></i>
 		</a>
 	</div>
-	<!-- <div class="">
-		{#if }
-			
-		{/if}
-	</div> -->
 	<div class="text-center font-normal mt-4">
 		<p>Copyright &copy; 2024 Tyler Wojciechowski Wolfe</p>
 	</div>
