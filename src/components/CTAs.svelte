@@ -5,7 +5,7 @@
 		>
 	</button>
 	<button
-		class="py-1 px-5 border rounded-lg border-purple text-purple text-base hover:text-hoverColor hover:border-hoverColor"
+		class="py-1 px-5 border rounded-lg border-purple text-textColour text-base hover:text-purple"
 	>
 		<a href="#projects">My Work</a>
 	</button>
