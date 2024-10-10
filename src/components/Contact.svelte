@@ -57,7 +57,7 @@
 					id="message"
 					placeholder="Start your message here.."
 				></textarea>
-				<button class="py-1 px-5 rounded-lg bg-purple hover:bg-hoverColor" type="submit">
+				<button class="text-darkGrey py-1 px-5 rounded-lg bg-purple hover:bg-hoverColor" type="submit">
 					<p>Let's Chat <i class="fa fa-arrow-right"></i></p>
 				</button>
 			</form>

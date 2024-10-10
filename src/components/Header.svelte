@@ -11,6 +11,6 @@
 		<a href="#contact" class="hover:text-purple">Contact</a>
 	</nav>
 	<a href="#contact" class="text-lg py-1 px-5 bg-purple rounded-lg text-nowrap hover:bg-hoverColor">
-		<p class="opacity-95">Get in touch</p>
+		<p class="text-darkGrey">Get in touch</p>
 	</a>
 </header>
