@@ -15,7 +15,7 @@
 
 		<!-- Nav menu -->
 		<nav
-			class="flex flex-row no-wrap justify-center content-center items-center gap-10 text-2xl w-full"
+			class="flex flex-row no-wrap justify-center content-center items-center gap-10 text-xl w-full"
 		>
 			<a href="#about" class="hover:text-purple">About</a>
 			<a href="#projects" class="hover:text-purple">Projects</a>
@@ -25,12 +25,12 @@
 		<!--  -->
 		<a
 			href="#header"
-			class="rounded-full size-8 bg-textColor text-darkGrey border-darkGrey border-solid flex justify-center content-center items-center text-lg z-50 h-fill"
+			class="hidden rounded-full size-8 bg-textColor text-darkGrey border-darkGrey border-solid md:flex justify-center content-center items-center text-lg z-50 h-fill"
 		>
 			<i class="fa fa-arrow-up"></i>
 		</a>
 	</div>
-	<div class="text-center font-normal mt-4">
+	<div class="text-center font-normal text-lg mt-4">
 		<p>Copyright &copy; 2024 Tyler Wojciechowski Wolfe</p>
 	</div>
 </footer>

@@ -1,5 +1,5 @@
 <div
-	class="flex flex-col justify-center items-center fixed gap-4 inset-y-0 right-36 z-50 drop-shadow-sm h-screen"
+	class="flex lg:flex-col justify-center items-center lg:fixed gap-4 inset-y-0 right-36 z-50 drop-shadow-sm lg:h-screen"
 >
 	<a href="https://x.com/Tyler_Wolfiee"
 		><i class="fa-brands fa-x-twitter text-2xl hover:text-purple hover:scale-110"></i></a

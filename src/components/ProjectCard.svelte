@@ -6,20 +6,17 @@
 
 <div
 	id={index}
-	class={'flex min-w-1/2 w-11/12 gap-12 items-center ' +
-		(left
-			? index % 2 === 0
-				? 'flex-row flex-start'
-				: ''
-			: index % 2 === 1
-				? 'flex-end flex-row-reverse'
-				: '')}
+	class={`flex flex-col min-w-1/2 w-11/12 gap-12 items-center md:flex-row ${
+		left
+			? (index % 2 === 0 ? 'md:flex-row md:flex-start' : '')
+			: (index % 2 === 1 ? 'md:flex-row-reverse md:flex-end' : '')
+	}`}
 >
 	<div class="relative bg-darkGrey rounded-2xl object-fill flex items-center justify-center">
 		<img src={project.source} alt="" class=" max-h-80 rounded-2xl object-fill"/>
 		<span class="-z-10 size-full blur-md bg-purple absolute bottom-0"></span>
 	</div>
-	<div class="flex flex-col justify-center gap-6 w-5/12">
+	<div class="flex flex-col justify-center gap-6 md:w-5/12">
 		<div class="flex flex-col gap-3">
 			<h3 class=" text-3xl font-semibold">
 				<a href={project.link} class="hover:text-purple">{project.name}</a>

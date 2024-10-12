@@ -5,7 +5,7 @@ let projects = [
 		link: 'https://swoley-moley-eight.vercel.app/',
 		description:
 			"This was a project done through freeCodeCamp which allowed me to further understand Svelte, Sveltekit, and Tailwindcss which in turn allowed me to create my portfolio using the same tech stack.",
-		languages: ['Svelte', 'SvelteKit', 'TailwindCSS', 'JavaScript']
+		languages: ['Svelte', 'SvelteKit', 'TailwindCSS', 'TypeScript']
 	},
 	{
 		name: 'ClearSky',

@@ -8,9 +8,9 @@
 
 <section
 	id="projects"
-	class="my-8 flex flex-col justify-center items-center gap-20 min-h-full h-screen snap-proximity snap-y snap-start"
+	class="my-28 flex flex-col justify-center items-center gap-20 min-h-full h-screen snap-proximity snap-y snap-start"
 >
-	<h2 class="relative text-5xl font-bold">
+	<h2 class="relative text-3xl md:text-5xl font-bold">
 		Concepts I have made
 		<span
 			class="-z-10 rounded-sm w-5/6 h-7 bg-purple absolute right-10 -bottom-1 opacity-75 blur-[1px]"

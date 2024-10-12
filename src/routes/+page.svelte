@@ -7,8 +7,8 @@
 </script>
 
 <main class="relative snap-always snap-y">
-	<Socials />
 	<Hero />
+	<Socials />
 	<About />
 	<Projects />
 	<Contact />

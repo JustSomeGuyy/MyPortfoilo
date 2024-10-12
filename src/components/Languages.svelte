@@ -10,7 +10,7 @@
 		>
 			{#each languages as { name, icon }}
 				<li>
-					<i id={name} class="{icon} text-[120px]"></i>
+					<i id={name} class="{icon} text-[75px] md:text-[120px]"></i>
 				</li>
 			{/each}
 		</ul>
@@ -20,7 +20,7 @@
 		>
 			{#each languages as { name, icon }}
 				<li>
-					<i id={name} class="{icon} text-[120px]"></i>
+					<i id={name} class="{icon} text-[75px] md:text-[120px]"></i>
 				</li>
 			{/each}
 		</ul>

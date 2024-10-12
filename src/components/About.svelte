@@ -4,13 +4,13 @@
 
 <section
 	id="about"
-	class="flex flex-col justify-center content-center items-center gap-16 h-screen my-auto snap-mandatory snap-start"
+	class="flex flex-col justify-center content-center items-center gap-16 h-screen snap-mandatory snap-start my-12 md:my-0"
 >
 	<div
-		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-9/12 h-80 justify-center sm:px-8 md:px-20 gap-4"
+		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-full md:w-9/12 h-80 justify-center p-4 md:px-20 gap-4"
 	>
 		<div class="flex flex-col justify-start content-center gap-4">
-			<h2 class="sm:text-2xl md:text-3xl lg:text-5xl font-bold">Who Am I?</h2>
+			<h2 class="text-center text-2xl md:text-3xl lg:text-5xl font-bold">Who Am I?</h2>
 			<p class="text-base">
 				I am a passionate web developer with a vision of a beautiful and accessible internet. I have
 				been self-taught by developing websites and web-apps with JavaScript and other languages for
