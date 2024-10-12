@@ -8,7 +8,7 @@
 
 <section
 	id="projects"
-	class="flex flex-col justify-center items-center gap-20 min-h-dvh h-screen mb-16 md:mb-0"
+	class="flex flex-col justify-center items-center gap-20 min-h-dvh h-screen md:mb-0"
 >
 	<h2 class="relative text-3xl md:text-5xl font-bold">
 		Concepts I have made

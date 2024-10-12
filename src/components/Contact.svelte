@@ -3,7 +3,7 @@
 
 <section
 	id="contact"
-	class="flex flex-row h-screen min-w-52 w-full justify-center content-center gap-36 relative snap-mandatory snap-end"
+	class="flex mt-14 mb:mt-0 flex-row h-screen min-w-52 w-full justify-center content-center gap-36 relative"
 >
 	<div class="flex flex-col gap-14 items-center justify-center">
 		<h2 class="font-semibold text-3xl md:text-5xl relative">
