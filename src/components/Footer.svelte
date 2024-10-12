@@ -3,7 +3,7 @@
 </script>
 
 <footer class="flex flex-col w-full h-15">
-	<div class="flex justify-center content-center items-around w-full mx-auto flex-row no-wrap h-10">
+	<div class="flex justify-center content-center items-around w-full mx-auto flex-col gap-1 sm:gap-0 md:flex-row no-wrap h-10">
 		<a
 			href="#header"
 			class="flex justify-center content-center items-center text-center text-2xl h-fill"

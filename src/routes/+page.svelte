@@ -6,7 +6,7 @@
 	import Contact from '../components/Contact.svelte';
 </script>
 
-<main class="relative snap-always snap-y">
+<main class="relative">
 	<Hero />
 	<Socials />
 	<About />

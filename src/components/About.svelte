@@ -4,10 +4,10 @@
 
 <section
 	id="about"
-	class="flex flex-col justify-center content-center items-center gap-16 h-screen snap-mandatory snap-start my-12 md:my-0"
+	class="flex flex-col justify-center content-center items-center gap-16 h-screen mb-10"
 >
 	<div
-		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-full md:w-9/12 h-80 justify-center p-4 md:px-20 gap-4"
+		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-full md:w-9/12 md:h-80 justify-center p-4 md:px-20 gap-4"
 	>
 		<div class="flex flex-col justify-start content-center gap-4">
 			<h2 class="text-center text-2xl md:text-3xl lg:text-5xl font-bold">Who Am I?</h2>

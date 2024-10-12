@@ -3,9 +3,9 @@
 </script>
 
 <section
-	class="flex justify-center content-center items-center size-full gap-5 min-h-[80dvh] flex-col-reverse md:flex-row"
+	class="flex justify-center content-center items-center size-full gap-4 min-h-[80dvh] flex-col-reverse md:flex-row"
 >
-	<div class="flex flex-col content-center text-start max-w-lg w-1/2 gap-6 md:gap-4">
+	<div class="flex flex-col content-center text-start max-w-lg w-1/2 gap-4">
 		<h2 class="text-3xl md:text-6xl font-semibold relative z-0 size-full">
 			&#128075; Hi there, <br />
 			I am Tyler Wolfe.
@@ -13,7 +13,7 @@
 				class="-z-10 rounded-sm w-9/12 h-7 bg-purple absolute right-16 bottom-0 opacity-75 blur-[1px]"
 			></span>
 		</h2>
-		<p class="text-base font-semibold h-24 mb-12 md:mb-0">
+		<p class="text-base font-semibold md:h-24">
 			Welcome to my portfolio, I am Tyler Wolfe. I have been a developer for three years. Focusing
 			on websites both big and small that serves the needs required.
 		</p>
