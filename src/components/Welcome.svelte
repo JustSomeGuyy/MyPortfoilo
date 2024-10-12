@@ -67,5 +67,5 @@
 </script>
 
 <div class="h-screen flex justify-center items-center">
-	<p id="welcome" class="w-full text-center text-9xl lg:text-9xl md:text-2xl sm:text-lg"></p>
+	<p id="welcome" class="w-full text-center text-2xl md:text-9xl"></p>
 </div>

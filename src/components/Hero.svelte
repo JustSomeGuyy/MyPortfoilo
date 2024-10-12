@@ -5,7 +5,7 @@
 <section
 	class="flex justify-center content-center items-center size-full gap-5 min-h-[80dvh] flex-col-reverse md:flex-row"
 >
-	<div class="flex flex-col content-center text-start max-w-lg w-1/2 gap-4">
+	<div class="flex flex-col content-center text-start max-w-lg w-1/2 gap-6 md:gap-4">
 		<h2 class="text-3xl md:text-6xl font-semibold relative z-0 size-full">
 			&#128075; Hi there, <br />
 			I am Tyler Wolfe.
@@ -29,7 +29,7 @@
 	</div>
 </section>
 
-<div class="flex justify-center text-xl font-bold">
+<div class="md:flex justify-center text-xl font-bold hidden">
 	<p class="">
 		<span><i class="fa fa-arrow-down mx-1"></i></span> Scroll Down
 	</p>

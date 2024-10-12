@@ -1,6 +1,6 @@
 <header
 	id="header"
-	class="flex flex-col justify-center content-between items-center w-full mx-auto md:flex-row no-wrap min-h-20"
+	class="flex flex-col justify-center content-between items-center w-full mx-auto md:flex-row no-wrap h-24 md:min-h-20"
 >
 	<h1 class=" flex justify-center items-center text-center text-2xl">
 		Tyler<span class="opacity-70">Wolfe</span>
