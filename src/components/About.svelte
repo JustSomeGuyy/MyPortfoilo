@@ -4,7 +4,7 @@
 
 <section
 	id="about"
-	class="flex flex-col justify-center content-center items-center gap-16 h-screen mb-10"
+	class="flex flex-col justify-center content-center items-center gap-16 md:h-screen min-h-dvh mb-10"
 >
 	<div
 		class="flex flex-col bg-purple text-darkGrey rounded-2xl w-full md:w-9/12 md:h-80 justify-center p-4 md:px-20 gap-4"
