@@ -1,4 +1,20 @@
 <script>
+import { onMount } from 'svelte';
+
+let name = '';
+let email = '';
+let message = '';
+
+onMount(() => {
+	const form = document.getElementById('contactForm');
+	form.addEventListener('submit', function(e) {
+		e.preventDefault(); // Prevent the default form submission
+
+		const mailtoLink = `mailto:tyler.wojciechowski@icloud.com?subject=New%20Message%20From%20Website&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
+		
+		window.location.href = mailtoLink; // Redirect to mailto link
+	});
+});
 </script>
 
 <section
@@ -17,23 +33,20 @@
 			<p>Send me a message and let's chat and work together!</p>
 			<!-- Name input skew -->
 			<span
-				class="-z-10 hidden sm:block rounded-sm w-5/12 h-7 bg-purple absolute top-28 -left-2 opacity-70 blur-[1px]"
+				class="-z-10 hidden md:block rounded-sm w-5/12 h-7 bg-purple absolute top-28 -left-2 opacity-70 blur-[1px]"
 			></span>
 			<!-- Email input skew -->
 			<span
-				class="-z-10 hidden sm:block rounded-sm w-5/12 h-7 bg-purple absolute top-28 right-5 opacity-70 blur-[1px]"
+				class="-z-10 hidden md:block rounded-sm w-5/12 h-7 bg-purple absolute top-28 right-5 opacity-70 blur-[1px]"
 			></span>
 			<!-- Textarea skew -->
 			<span
-				class="-z-10 hidden sm:block rounded-sm w-6/12 h-7 bg-purple absolute top-46 -left-2 opacity-70 blur-[1px]"
+				class="-z-10 hidden md:block rounded-sm w-6/12 h-7 bg-purple absolute top-46 -left-2 opacity-70 blur-[1px]"
 			></span>
 			<!-- Contact Form -->
 			<form
 				class="flex flex-col gap-9 justify-center content-center items-center"
-				action="mailto:tyler.wojciechowski@icloud.com"
-				target="_blank"
-				method="post"
-				enctype="text/plain"
+				id="contactForm"
 			>
 				<div class="flex w-full flex-col md:flex-row gap-14">
 					<input
@@ -42,6 +55,8 @@
 						name="Name"
 						id="nameInput"
 						placeholder="Name"
+						bind:value={name}
+						required
 					/>
 					<input
 						class="input h-12 p-2 md:w-64 md:max-w-72 font-semibold text-base"
@@ -49,6 +64,8 @@
 						name="Email"
 						id="emailInput"
 						placeholder="Email"
+						bind:value={email}
+						required
 					/>
 				</div>
 				<textarea
@@ -56,6 +73,8 @@
 					name="Message"
 					id="message"
 					placeholder="Start your message here.."
+					bind:value={message}
+					required
 				></textarea>
 				<button class="text-darkGrey py-1 px-5 rounded-lg bg-purple hover:bg-hoverColor" type="submit">
 					<p>Let's Chat <i class="fa fa-arrow-right"></i></p>
