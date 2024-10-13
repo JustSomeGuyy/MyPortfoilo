@@ -7,6 +7,7 @@ let message = '';
 
 onMount(() => {
 	const form = document.getElementById('contactForm');
+	// @ts-ignore
 	form.addEventListener('submit', function(e) {
 		e.preventDefault(); // Prevent the default form submission
 
