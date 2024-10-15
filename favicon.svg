@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="395.5"
-     inkscape:cy="276"
+     inkscape:cx="350"
+     inkscape:cy="416"
      inkscape:window-width="1361"
      inkscape:window-height="822"
      inkscape:window-x="76"
@@ -41,19 +41,20 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:84.101px;font-family:Syne;-inkscape-font-specification:Syne;fill:#c1bec6;fill-opacity:0.695652;stroke-width:0.264583"
-       x="47.625"
-       y="124.61875"
+       style="font-size:70.8618px;font-family:Syne;-inkscape-font-specification:Syne;fill:#c1bec6;fill-opacity:0.695652;stroke-width:0.222932"
+       x="56.957088"
+       y="105.00129"
        id="text790"
-       inkscape:export-filename="text790.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       inkscape:export-filename="../../Documents/favicon1.png"
+       inkscape:export-xdpi="8.7770529"
+       inkscape:export-ydpi="8.7770529"
+       transform="scale(0.84258019,1.1868307)"><tspan
          sodipodi:role="line"
          id="tspan788"
-         style="fill:#5f5a68;fill-opacity:1;stroke-width:0.264583"
-         x="47.625"
-         y="124.61875">T<tspan
-   style="fill:#5f5a68;fill-opacity:0.7"
+         style="fill:#5f5a68;fill-opacity:1;stroke-width:0.222932"
+         x="56.957088"
+         y="105.00129">T<tspan
+   style="fill:#5f5a68;fill-opacity:0.7;stroke-width:0.222932"
    id="tspan2608">W</tspan></tspan></text>
   </g>
 </svg>

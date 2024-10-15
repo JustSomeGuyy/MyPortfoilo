@@ -11,7 +11,7 @@ onMount(() => {
 	form.addEventListener('submit', function(e) {
 		e.preventDefault(); // Prevent the default form submission
 
-		const mailtoLink = `mailto:tyler.wojciechowski@icloud.com?subject=New%20Message%20From%20Website&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
+		const mailtoLink = `mailto:0.droplet-gulp@icloud.com?subject=New%20Message%20From%20Website&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
 		
 		window.location.href = mailtoLink; // Redirect to mailto link
 	});
