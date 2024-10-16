@@ -33,6 +33,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sentry/cli": "^2.37.0",
+		"@sentry/node": "^8.34.0",
+		"@sentry/profiling-node": "^8.34.0",
+		"@sentry/sveltekit": "^8.34.0",
 		"@sveltejs/adapter-vercel": "^5.4.5"
 	}
 }
