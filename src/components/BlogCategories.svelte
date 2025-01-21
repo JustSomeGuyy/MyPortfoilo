@@ -1,10 +1,14 @@
 <script>
     import Posts from '$lib/blog/_posts';
 
+    /**
+	 * @type {Iterable<any> | null | undefined}
+	 */
     let postsArr = [];
 
     // Collect categories from each post
     Posts.forEach(post => {
+        // @ts-ignore
         postsArr.push(post.category);
     });
 
