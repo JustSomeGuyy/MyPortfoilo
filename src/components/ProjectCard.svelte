@@ -24,14 +24,17 @@
 			<span class="h-[1px] w-full bg-purple"></span>
 			<p class="opacity-75 text-sm">{project.description}</p>
 		</div>
-		<div class="flex flex-row gap-4 flex-wrap justify-center items-center md:justify-start md:items-start lg:flex-nowrap">
-			{#each project.languages as keyword}
-				<div
-					class="text-center border-purple border-[1px] rounded-[10px] py-1 px-5 opacity-80 font-meduim"
-				>
-					<p>{keyword}</p>
-				</div>
-			{/each}
+		<div class="flex flex-col justify-center align-middle items-center gap-2">
+			<h4 class="text-xl font-semibold">Tech Stack</h4>
+			<div class="flex flex-row gap-4 flex-wrap justify-center items-center md:justify-start md:items-start">
+				{#each project.languages as keyword}
+					<div
+						class="text-center border-purple border-[1px] rounded-[10px] py-1 px-5 opacity-80 font-meduim"
+					>
+						<p>{keyword}</p>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 </div>
