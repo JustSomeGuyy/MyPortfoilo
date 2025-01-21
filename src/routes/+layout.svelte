@@ -4,7 +4,7 @@
 	import Welcome from '../components/Welcome.svelte';
 	import Footer from '../components/Footer.svelte';
 
-	let showContent = false;
+	let showContent = true;
 
 	function handleWelcomeFinished() {
 		showContent = true;
