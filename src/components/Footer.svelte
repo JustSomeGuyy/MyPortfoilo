@@ -23,10 +23,10 @@
 			<a href="/#contact" class="hover:text-purple">Contact</a>
 		</nav>
 
-		<!--  -->
+		<!-- Back to the top button -->
 		<a
 			href="#header"
-			class="hidden rounded-full size-8 bg-textColor text-darkGrey border-darkGrey border-solid md:flex justify-center content-center items-center text-lg z-50 h-fill"
+			class="hidden rounded-full size-7 bg-textColor text-darkGrey border-darkGrey border-solid md:flex justify-center content-center items-center text-lg z-50"
 		>
 			<i class="fa fa-arrow-up"></i>
 		</a>
