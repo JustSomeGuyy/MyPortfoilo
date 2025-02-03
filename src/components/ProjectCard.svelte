@@ -26,9 +26,8 @@
 		</div>
 		<div class="flex flex-col justify-center align-middle items-center gap-2">
 			<h4 class="text-xl font-semibold">Tech Stack</h4>
-			<div class="flex flex-row gap-4 flex-wrap justify-center items-center md:justify-start md:items-start">
-
-				<ul class="flex flex-row gap-2">
+			<div class="flex flex-row">
+				<ul class="flex flex-row gap-2 flex-wrap justify-center items-center">
 					{#each project.languages as keyword}
 						<li
 							class="text-center border-purple border-[1px] rounded-[10px] py-1 px-5 opacity-80 font-meduim"
