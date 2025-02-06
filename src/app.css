@@ -33,7 +33,6 @@
 
 .prose {
 
-	color: hsl(262, 7%, 76%);
 	text-align: start;
 
 	ul {
@@ -41,40 +40,15 @@
 	}
 
 	p {
-		:not(:is(h2, h3, h4, h5, h6)) {
-		margin-top: 1rem;
-		}
-
-		/* Ignore paragraph tag around images */
-		&:has(img) {
-			display: contents;
-		}
 		font-size: 1rem;
-		line-height: 1.5rem;
-		text-align: start;
 	}
 
-	:is(h2, h3, h4, h5, h6) {
-		padding: 1rem 0;
+	:is(h1, h2, h3, h4, h5, h6) {
 		color: hsl(262, 7%, 76%);
-	}
-
-	h2 {
-		font-size: 1.5em;
-	}
-
-	h3 {
-		font-size: 1.17em;
-	}
-
-	h4 {
-		font-size: 1em;
 	}
 
 	h1 {
 		font-size: 2em;
-		margin-block: 0.67em;
-		color: hsl(262, 7%, 76%);
 		font-weight: 700;
 	}
 
