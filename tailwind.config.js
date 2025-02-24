@@ -9,7 +9,7 @@ export default {
 		},
 		colors: {
 			purple: 'hsl(257, 62%, 71%)',
-			darkGrey: 'hsl(0, 0%, 17%)',
+			darkGrey: 'hsl(0, 0%, 12%)',
 			textColor: 'hsl(262, 7%, 76%)',
 			hoverColor: 'hsl(257, 62%, 65%)'
 		},
