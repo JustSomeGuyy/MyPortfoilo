@@ -3,7 +3,7 @@
 </script>
 
 <footer class="flex flex-col w-full h-15">
-	<div class="flex justify-around min-w-full gap-1 sm:gap-0 md:flex-row no-wrap">
+	<div class="flex justify-around items-center min-w-full gap-1 sm:gap-0 md:flex-row no-wrap">
 		<a
 			href="/#header"
 			class="flex justify-center content-center items-center text-center text-2xl h-fill"
@@ -15,7 +15,7 @@
 
 		<!-- Nav menu -->
 		<nav
-			class="flex flex-row no-wrap gap-10 text-xl w-full"
+			class="flex flex-row no-wrap gap-10 text-xl"
 		>
 			<a href="/#about" class="hover:text-purple">About</a>
 			<a href="/#projects" class="hover:text-purple">Projects</a>
