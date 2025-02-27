@@ -1,6 +1,6 @@
 ---
-title: Building a Blog with Svelte and Mdsvex
-description: This is a test post for seeing how long the description paragraph can go before it breaks so I can see how to fix it. However, it appears to work as intended so there is nothing to fix about this part.
+title: "Building a Blog with Svelte and Mdsvex"
+description: "This post is about my experience creating the 'blog' portion of my personal website using alternate methods and Svelte, SvelteKit, TS, and Mdsvex along with the challenges I faced."
 date: '2025-2-5'
 categories:
     - Svelte

@@ -44,9 +44,12 @@
     }
 }
 
+
+/* This is for the markdown files */
 .prose {
 
 	text-align: start;
+	padding: 1rem 0;
 
 	ul {
 		list-style: none;
@@ -95,5 +98,19 @@
 		font-size: 1em;
 		line-height: 1.5em;
 		text-align: center;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	a:hover {
+		color: hsl(257, 62%, 71%);
+	}
+
+	blockquote {
+		font-style: italic;
+		color: inherit;
+		opacity: 65%;
 	}
 }
