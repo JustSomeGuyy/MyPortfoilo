@@ -12,10 +12,10 @@
 		<div class="flex flex-col justify-start content-center gap-4">
 			<h2 class="text-center text-2xl md:text-3xl lg:text-5xl font-bold">Who Am I?</h2>
 			<p class="text-base">
-				As a passionate web developer, I am dedicated to creating a visually appealing and user-friendly internet experience. Through self-directed learning and experience in developing websites and web applications using JavaScript and other programming languages, I have honed my skills over the past three years.
+				As a passionate web developer with a vision of a beautiful and accessible internet, I have honed my skills through self-study and experience in developing websites and web applications using JavaScript and other programming languages over the past three years.
 			</p>
 			<p class="text-base">
-				My professional journey in software and web development did not commence immediately. Initially, my primary focus was on sales and management, and I continue to be involved in those areas. However, my innate passion for creating, constructing, and technology has propelled me towards a fulfilling hobby that I aspire to transform into a career.
+				Although my journey into software and web development did not begin with this pursuit, I have always been drawn to creating, building, and technology. This passion has led me to a fulfilling hobby that I aspire to turn into a career, where I can continue to innovate and contribute to the ever-evolving world of digital development.
 			</p>
 		</div>
 		<div class="flex flex-row justify-center gap-2">

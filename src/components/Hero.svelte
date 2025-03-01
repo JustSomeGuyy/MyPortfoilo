@@ -14,8 +14,8 @@
 			></span>
 		</h2>
 		<p class="text-base font-semibold md:h-24">
-			Welcome to my portfolio, I am Tyler Wolfe. I have been a developer for three years. Focusing
-			on websites both big and small that serves the needs required.
+			Welcome to my portfolio! I’ve been a web developer for three years and love creating visually stunning websites that meet users’ needs. I constantly seek new challenges to improve my skills and deliver exceptional digital experiences.
+
 		</p>
 		<CtAs />
 	</div>
