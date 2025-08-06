@@ -1,5 +1,13 @@
 let projects = [
 	{
+		name: 'Callan For Change',
+		source: '/assets/project_photos/CallanForChange.png',
+		link: 'https://www.callan4change.org',
+		description:
+			"This was a website for my friend Callan Wassenaar, an independent candidate for the federal election for Battle River - Crowfoot area of August 2025. This was a volunteer project, he was not allowed to spend money during his campaign.",
+		languages: ['HTML5', 'CSS3', 'JavaScript', 'Vercel']
+	},
+	{
 		name: 'Swoley Moley',
 		source: '/assets/project_photos/SwoleyMole.png',
 		link: 'https://swoley-moley-eight.vercel.app/',
